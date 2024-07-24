@@ -5,7 +5,7 @@ variable "region" {
 
 variable "project_id" {
   type    = string
-  default = "ian-test-261906"
+  default = ""
 }
 
 variable "api_list" {

@@ -30,7 +30,6 @@ client = WebClient(token=slack_token)
 # Get BOT_USER_ID from the auth_test
 auth_test = client.auth_test()
 BOT_USER_ID = auth_test["user_id"]
-print(f'Running with bot_id {BOT_USER_ID}')
 
 app = Flask(__name__)
 
