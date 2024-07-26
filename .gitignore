@@ -1,6 +1,6 @@
-.env
-__pycache__/
-venv/
+src/.env
+src/__pycache__/
+src/venv/
 
 terraform/default.tfstate
 terraform/default.tfstate.backup
